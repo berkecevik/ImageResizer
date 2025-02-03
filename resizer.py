@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads/'
-RESIZED_FOLDER = r'C:\Users\nbcev\Desktop\logos'
+RESIZED_FOLDER = r'C:\Users\YourFile'
 
 # Ensure folders exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
